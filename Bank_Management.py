@@ -234,8 +234,14 @@ while(1):
 
 
 
+#### DATABASE AND TABLE CREATION
 
-
-
+# create database bank_management;
+# use bank_management;
+# create table accounts(account_id int primary key auto_increment,
+# 					customer_name varchar(30),
+#                     account_type varchar(30),
+#                     phone varchar(15),
+#                     balance decimal(10,2));
 
 
